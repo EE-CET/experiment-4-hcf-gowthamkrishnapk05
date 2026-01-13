@@ -6,7 +6,7 @@ public class HCF {
             Scanner sc = new Scanner(System.in);
             int num1 = sc.nextInt();
             int num2 = sc.nextInt();
-            while(num1 != 0 && num2%num1 != 0)
+            while(num1 != 0 )
             {
                 int temp = num1;
                 num1=num2%num1;
